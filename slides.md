@@ -10,9 +10,15 @@ Assuming AWS IAM Roles from workspaces
 ## Introduction
 
 - Assume IAM Roles from Terraform Cloud/Terraform Enterprise
-- No more static secrets
-- No more secrets rotation
 - **Requires Terraform Cloud/Enterprise Agents**
+
+---
+# Why?
+
+- No more static AWS Credentials on TFC
+- No more secrets rotation (manual or otherwise)
+- No more complicated Vault setup
+- Secure ephemeral and dynamic credentials used to interact with AWS APIs
 
 ---
 ![Flow](images/tfc-workload-identity-flow.png)
@@ -208,3 +214,9 @@ fi
 
 ---
 ![](images/tfc-plan.png)
+
+---
+## Wishlist
+
+- `sts:AssumeRoleWithWebIdentity` to support arbitrary OIDC claims
+- Match OIDC token against workspace tags
