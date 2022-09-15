@@ -27,7 +27,7 @@ Assuming AWS IAM Roles from workspaces
 ## Setup
 
 - Setup OIDC Provider in AWS
-- Crete IAM role with appropriate trust policy
+- Create IAM role with appropriate trust policy
 - Deploy TFC Agents with pre-plan and pre-apply hooks
 - Add environment variables in TFC
 
@@ -65,7 +65,7 @@ Injected as environment variable `TFC_WORKLOAD_IDENTITY_TOKEN`
 ## `aud` and `sub`
 
 - `sts:AssumeRoleWithWebIdentity`
-- IAM Conditions only [supports](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_iam-condition-keys.html#condition-keys-wif) matching on `aud` and `sub`.
+- IAM Conditions only [support](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_iam-condition-keys.html#condition-keys-wif) matching on `aud` and `sub`.
 
 ---
 ## AWS Setup
