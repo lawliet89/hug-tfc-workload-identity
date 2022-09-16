@@ -6,6 +6,8 @@ marp: true
 
 Assuming AWS IAM Roles from workspaces
 
+[LinkedIn](https://www.linkedin.com/in/yong-wen/git) [Github](https://github.com/lawliet89)
+
 ---
 ## Introduction
 
