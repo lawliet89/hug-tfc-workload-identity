@@ -202,8 +202,7 @@ fi
 ---
 ## TFC Workspace Environment Variables
 
-- `TFC_WORKLOAD_IDENTITY_AUDIENCE` - Audience that must match the values in the OIDC proider and
-  the IAM Role Trust policy.
+- `TFC_WORKLOAD_IDENTITY_AUDIENCE` - Audience that must match the values in the OIDC provider and the IAM Role Trust policy.
 - `TFC_AWS_RUN_ROLE_ARN`: ARN of IAM Role to be assumed or,
 
   - `TFC_AWS_PLAN_ROLE_ARN`: Plan role
