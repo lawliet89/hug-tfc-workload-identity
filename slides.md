@@ -200,6 +200,7 @@ if [ -z ${TFC_AWS_APPLY_ROLE_ARN+x} ] && [ -z ${TFC_AWS_RUN_ROLE_ARN+x} ]; then
   echo "AWS provider auth prepared"
 fi
 ```
+[Docker Image](https://github.com/SPHTech-Platform/tfc-agent-docker/)
 
 ---
 ## TFC Workspace Environment Variables
